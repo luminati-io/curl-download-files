@@ -23,7 +23,7 @@ curl -O <file_url>
 ```
 
 > 💡 **Important:**
-> On Windows, `curl` is an alias for [`Invoke-WebRequest`](/blog/how-tos/powershell-invoke-webrequest-with-proxy) in Windows PowerShell. To avoid the conflict, replace `curl` with `curl.exe`.
+> On Windows, `curl` is an alias for [`Invoke-WebRequest`](https://github.com/luminati-io/Invoke-web-request-proxy) in Windows PowerShell. To avoid the conflict, replace `curl` with `curl.exe`.
 
 The [`-O`](https://curl.se/docs/manpage.html#-O) and `--remote-name` flags tell cURL to save the downloaded file with its original name:
 
@@ -46,7 +46,7 @@ This will produce an output with a download progress bar as below:
 
 When the progress bar reaches 100%, a file named `CSRiAeN.jpg` will appear in the folder where you ran the cURL command:
 
-![The downloaded CSRiAeN.jpg file in the folder where cURL was launched](https://brightdata.com/wp-content/uploads/2025/01/image-37.png)
+![The downloaded CSRiAeN.jpg file in the folder where cURL was launched](https://github.com/luminati-io/curl-download-files/blob/main/image-37.png)
 
 For more information on cURL and its options, [read our cURL guide](https://brightdata.com/blog/web-data/what-is-curl).
 
@@ -58,7 +58,7 @@ Let's learn some additional options.
 
 By default, the `-O` option saves the dowloaded file under its original name. If the remote file in the URL does not include a name, cURL creates a file with no extension called `curl_response`:
 
-![The default curl_response file in the folder where cURL was launched](https://brightdata.com/wp-content/uploads/2025/01/image-38.png)
+![The default curl_response file in the folder where cURL was launched](https://github.com/luminati-io/curl-download-files/blob/main/image-38.png)
 
 cURL will also print a warning to inform you of that behavior:
 
@@ -74,7 +74,7 @@ curl "https://i.imgur.com/CSRiAeN.jpg" -o "logo.jpg"
 
 cURL will perform a GET request to the specified file URL and save the downloaded content under the name specified after `-o`. This time, the output file will be a `logo.jpg` file:
 
-![The downloaded logo.jpg file in the folder where cURL was launched](https://brightdata.com/wp-content/uploads/2025/01/image-39.png)
+![The downloaded logo.jpg file in the folder where cURL was launched](https://github.com/luminati-io/curl-download-files/blob/main/image-39.png)
 
 ### Follow Redirects
 
