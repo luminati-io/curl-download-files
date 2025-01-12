@@ -1,6 +1,6 @@
 # The cURL Guide on Downloading Files
 
-![Hero image](https://brightdata.com/wp-content/uploads/2025/01/How-to-download-files-with-curl-blog-image.svg)
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
 
 In this guide, you will see:
 
