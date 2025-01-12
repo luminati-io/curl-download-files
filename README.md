@@ -318,4 +318,4 @@ Every time you make an HTTP request, you leave traces on the internet. To protec
 - [ISP proxies](https://brightdata.com/proxy-types/isp-proxies) – Over 700,000 ISP IPs.
 - [Mobile proxies](https://brightdata.com/proxy-types/mobile-proxies) – Over 7M mobile IPs.
 
-Sign up now and test our proxies and scraping solutions for free!
+[Sign up now](https://brightdata.com) and test our proxies and scraping solutions for free!
